@@ -8,7 +8,7 @@ declared-services:
     plan: Lite
 applications:
 - name: wConversationMaster
-  memory: 1024M
+  memory: 512M
   instances: 1
   host: wConversationMaster
   services:
