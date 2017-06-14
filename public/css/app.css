@@ -8,6 +8,10 @@ body {
   font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: url(../img/bg-vehicular.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: #E4F7FD;
 }
 
 div {
@@ -21,7 +25,7 @@ div {
   width: 3.125rem;
   height: 3.125rem;
   border-radius: 1.5625rem;
-  background: #E27005;
+  background: #AB72F8;
   top: 0.3125rem;
   right: 0.3125rem;
   line-height: 3.125rem;
@@ -44,7 +48,7 @@ div {
 }
 
 #contentParent {
-  height: 100%;
+  height: 90%;
 }
 
 .responsive-columns-wrapper {
@@ -69,11 +73,13 @@ div {
 
 .chat-column {
   height: 100%;
-  padding: 0.2375rem 0 0.100rem 0;
+  padding: 0.9375rem 0 0.625rem 0;
   margin: auto;
   text-align: left;
-  max-width: 50rem;
+  max-width: 25rem;
   min-width: 9.375rem;
+  border: 1px solid #00B4A0;
+  background: white;
 }
 
 #scrollingChat {
@@ -177,7 +183,7 @@ div {
 
 .from-watson.latest.top p:before {
   content: ".";
-  color: #E27005;
+  color: #ed1c24;
   background-image: url("../img/marker_image.png");
   background-size: 0.3125rem 1.3125rem;
   position: absolute;
@@ -428,4 +434,171 @@ html{
   url('../fonts/ibm-glyphs.svg?1b8643#ibm-glyph') format('svg');
   font-weight: normal;
   font-style: normal;
+}
+
+header {
+	height: 10%;
+    max-height: 78px;
+    max-width: 25rem;
+    margin: auto;
+    z-index: 999;
+	position: relative;
+}
+header #logo {
+	background: url(../img/logo.png);
+	display: block;
+	width: 190px;
+	height: 80px;
+  margin: auto;
+  background-size: 100% 100%;
+}
+
+.plan {
+	border: 1px solid #CCC;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.plan h2 {
+	background: #ffc700;
+    margin: 0px;
+    height: 42px;
+    padding-top: 12px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.plan.two h2 {
+	background: #3bbeac;
+}
+.plan.three h2 {
+	background: #81bb00;
+}
+.plan span {
+	display: block;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+    color: #3bbeac;
+}
+.plan ul {
+	padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+/* Discovery response style */
+.docContainer {
+  display: block;
+  width: 98%;
+  background: #F7F7F7;
+  border: 1px solid #D9D9D9;
+  border-bottom-style: none;
+  padding-left: 5px;
+}
+.docBody {
+ cursor: pointer;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.docBodyTitle{
+ font-family: 'Helvetica Neue for IBM';
+ font-size: 18px;
+ color: #5F2788;
+ letter-spacing: 0.27px;
+ line-height: 21px;
+ vertical-align: top;
+ padding-top: 23px;
+}
+.docBodySnippet{
+ padding-top: 23px;
+ font-family: 'Helvetica Neue for IBM';
+ font-size: 12px;
+ color:#5F2788;
+ letter-spacing: 0.2px;
+ line-height: 17px;
+ /* new */
+ height: 74px;
+ text-overflow: ellipsis;
+ overflow: hidden;
+}
+.modal {
+ position: fixed;
+ top: 0px;
+ background-color: #FFF;
+ z-index: 100;
+ overflow-y:scroll;
+ height:100%;
+ margin-left:-36px;
+}
+.modal-header{
+ font-family: 'Helvetica Neue for IBM';
+ background-color: #311545;
+ color: #FFFFFF;
+ padding:10px;
+ padding-left: 25px;
+ font-size: 18px;
+ letter-spacing: 0.27px;
+ line-height: 26px;
+}
+.modal-doc{
+ z-index: 15;
+ display:inline-block;
+ width:90%;
+}
+.modal-close{
+ display:inline;
+ cursor: pointer;
+ float:right;
+ font-size:larger;
+}
+.close-button{
+ width: 18px;
+ height: 19px;
+}
+.modalDocTitle {
+ padding-bottom: 13px;
+ padding-top: 5px;
+}
+.docLink{
+ color:inherit;
+ text-decoration:none;
+}
+.titleText{
+ font-family: 'Helvetica Neue for IBM';
+ font-size: 12px;
+ color: #CD91FF;
+ letter-spacing: 0.18px;
+ line-height: 26px;
+ background: #F7F7F7;
+ padding-left:20px;
+ padding-top: 10px;
+}
+.bodyText {
+ padding: 10px 20px 10px 25px;
+ font-family: Helvetica Neue for IBM;
+ font-size: 14px;
+ color: #262626;
+ letter-spacing: 0.27px;
+ line-height: 21px;
+ min-height: calc(71% - 40px);
+}
+.disclaimer{
+ font-family: 'Helvetica Neue Roman for IBM';
+ font-size: 13px;
+ color: #646364;
+ letter-spacing: 0.25px;
+ line-height: 18px;
+ background: #F1F1F1;
+ border-radius: 66px;
+ height: 40px;
+ margin: 20px;
+ padding: 14px 25px 25px;
+ text-align: center;
+}
+.docTitle {
+ padding-bottom: 13px;
+ padding-top: 5px;
+}
+[hidden] {
+  display: none;
 }
