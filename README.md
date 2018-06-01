@@ -1,11 +1,11 @@
 # conversationMaster
-ConversationMaster is a Botmaster integration for IBM Watson Conversation in parallel to conversation-simple interface.
+ConversationMaster is a Botmaster integration for IBM Watson Assistant in parallel to conversation-simple interface.
 
 ## Deploy your own chatbot in a few clicks !
 
-### I - Deploy to Bluemix
+### I - Deploy to IBM Cloud
 
-  The first thing you have to do is to deploy the sample app to Blumix.  [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/emeloibmco/chatbot-facebook)
+  The first thing you have to do is to deploy the sample app to IBM Cloud.  [![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/emeloibmco/chatbot-facebook)
 
   In this example, we'll call this app 'sample' and its link will be sample.mybluemix.net.
 
@@ -50,9 +50,9 @@ ConversationMaster is a Botmaster integration for IBM Watson Conversation in par
 
   3. Copy the Workspace ID.
 
-### VI - Set your environmental variables in Bluemix
+### VI - Set your environmental variables in IBM Cloud
 
-  In order to work, your Bluemix app will need some environment variables.
+  In order to work, your IBM Cloud app will need some environment variables.
   1. Go to https://bluemix.net and get to the Runtime part of the app freshly created. Click on Environment variables.
 
   ![Bluemix app image](readme_images/bluemix_app.png)
