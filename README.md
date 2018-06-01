@@ -5,7 +5,7 @@ ConversationMaster is a Botmaster integration for IBM Watson Conversation in par
 
 ### I - Deploy to Bluemix
 
-  The first thing you have to do is to deploy the sample app to Blumix.  [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/emeloibmco/conversationMaster)
+  The first thing you have to do is to deploy the sample app to Blumix.  [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/emeloibmco/chatbot-facebook)
 
   In this example, we'll call this app 'sample' and its link will be sample.mybluemix.net.
 
